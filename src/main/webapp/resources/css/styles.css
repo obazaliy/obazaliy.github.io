@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: normal 16px Arial, Helvetica, sans-serif;
+  padding: 50px;
+}
+
+.main-content {
+  box-sizing: border-box;
+  margin: 30px 40px 60px;
+  width: 100%;
+  min-width: 800px;
+}
+
+.pokemons-list {
+  max-width: 1500px;
+  text-align: center;
+}
+
+.pokemons-list > li{
+  box-sizing: border-box;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  transition: 0.2s;
+}
+
+.pokemon-item {
+  text-align: center;
+  font: normal 12px sans-serif;
+
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.08);
+  margin: 0 12px 14px 0;
+  padding: 15px;
+  width: 318px;
+
+}
+
+.load-more {
+  background-color: #3b8cff;
+  padding: 20px 45% 20px 45%;
+  color: #ffffff;
+  font: bold 16px Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  margin-bottom: 30px;
+  min-width: 318px;
+  border-radius: 6px;
+  text-align: center;
+  border: 1px solid #4987ff;
+}
+
+.nav-left {
+  max-width: 60%;
+  float: left;
+}
+
+.pokemon-info {
+  float: right;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  box-shadow: 1px 3px 1px rgba(0, 0, 0, 0.08);
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  right: 190px;
+  position: fixed;
+}
+
+.pokemon-description-item h2 {
+  padding: 20px;
+}
+
+.pokemons-bar {
+  box-sizing: border-box;
+  text-align: center;
+  font: normal 12px sans-serif;
+
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  margin: auto;
+  padding: 20px;
+  min-width: 300px;
+  width: 60%;
+}
+
+.pokemons-bar span {
+  font: bold 50px Arial, Helvetica, sans-serif;
+}
+
+table, th, td {
+  border: 1px solid #000000;
+  border-collapse: collapse;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+td {
+  width: 50%;
+}
+
+.pokemon-type, span {
+  text-transform: capitalize;
+}
+
+.pokemon-type {
+  padding: 7px;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 80px;
+  color: #000000;
+}
+
+.pokemon-item h2 {
+  padding: 5px;
+}
+
+
+
+.fire {
+  border: 1px solid #ff6037;
+  background: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1))
+}
+
+.normal {
+  border: 1px solid #4987ff;
+  background: linear-gradient(#4987ff, #ffffff);
+}
+
+.grass {
+  border: 1px solid #16d316;
+  background: linear-gradient(#16d316, #ffffff);
+}
+
+.electric {
+  border: 1px solid #ffdb00;
+  background: linear-gradient(#fbff10, #ffffff);
+}
+
+.fighting {
+  border: 1px solid #fcb523;
+  background: linear-gradient(#fcb523, #ffffff);
+}
+
+.flying {
+  border: 1px solid #62edfc;
+  background: linear-gradient(#62edfc, #ffffff);
+}
+
+.poison {
+  border: 1px solid #b141fc;
+  background: linear-gradient(#b141fc, #ffffff);
+}
+
+.water {
+  border: 1px solid #185efc;
+  background: linear-gradient(#185efc, #ffffff);
+}
+
+.bug {
+  border: 1px solid #96fcb5;
+  background: linear-gradient(#96fcb5, #ffffff);
+}
+
+.ground {
+  border: 1px solid #AA7243;
+  background: linear-gradient(#AA7243, #ffffff);
+}
+
+.fairy {
+  border: 1px solid #d696fc;
+  background: linear-gradient(#d696fc, #ffffff);
+}
+
+.psychic {
+  border: 1px solid #7ba489;
+  background: linear-gradient(#7ba489, #ffffff);
+}
+
+.rock {
+  border: 1px solid rgba(111, 104, 107, 0.86);
+  background: linear-gradient(rgba(111, 104, 107, 0.86), #ffffff);
+}
+
+.steel {
+  border: 1px solid rgb(203, 227, 255);
+  background: linear-gradient(rgb(203, 227, 255), #ffffff);
+}
+
+.ice {
+  border: 1px solid rgb(120, 192, 255);
+  background: linear-gradient(rgb(120, 192, 255), #ffffff);
+}
+
+.ghost {
+  border: 1px solid rgb(255, 158, 165);
+  background: linear-gradient(rgb(255, 158, 165), #ffffff);
+}
+
+.dragon {
+  border: 1px solid rgb(4, 162, 28);
+  background: linear-gradient(rgb(4, 162, 28), #ffffff);
+}
+
+.dark {
+  border: 1px solid rgba(63, 0, 25, 0.78);
+  background: linear-gradient(rgba(63, 0, 25, 0.78), #ffffff);
+}
+
+.unknown {
+  border: 1px solid #111111;
+  background: #ffffff
+}
+
+.shadow {
+  border: 1px solid rgba(79, 72, 121, 0.86);
+  background: linear-gradient(rgba(79, 72, 121, 0.86), #ffffff);
+}

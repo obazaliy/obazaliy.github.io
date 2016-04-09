@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Pokemons:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="Pokemons.war">
+      <element id="artifact" artifact-name="Pokemons:war exploded" />
+    </root>
+  </artifact>
+</component>
